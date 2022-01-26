@@ -1,5 +1,11 @@
+
 .App {
   text-align: center;
+  background-color: #ffc400;
+
+  height: 100%;
+    position: absolute;
+    width: 100%;
 }
 
 .App-logo {
@@ -35,4 +41,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.InputBox{
+  color: #000;
+  border-radius: 12px;
+  height: 40px;
+  padding: 4px;
+  font-size: 18px;
+  width: 40%;
+  margin: 2%;
+}
+
+.InputBox::placeholder {
+  color: #5c1e4e
 }
